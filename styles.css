@@ -1,0 +1,93 @@
+@font-face{
+	font-family: "pirate_font";
+	src: url("fonts/pirate_font.ttf");
+}
+
+body {
+	font-family: "pirate_font", serif;
+	text-align: center;
+}
+
+#header {
+	background-image: url("images/drum_island.jpg");
+	background-size: cover;
+	background-position: center;
+	
+	height: 500px;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	padding: 0px, 0px;
+	margin: 0px, 0px;
+	
+}
+
+#header_title {
+	background: pink;
+	font-size: 50px;
+	
+	padding: 15px 30px;
+	border-radius: 15px;
+}
+
+#header_sub {
+	background: pink;
+	font-size: 30px;
+	
+	padding: 10px 20px;
+	border-radius: 15px;
+}
+
+#main {
+	background: pink;
+	
+	margin: 0px 0px;
+	padding: 1px 0px;
+}
+
+#landmarks {
+	display: flex;
+	justify-content: space-around;
+	
+	text-shadow: 0px 0px 3px white;
+}
+
+#landmark_1, #landmark_2, #landmark_3 {
+	flex: 1 1 100%;
+	display: flex;
+	flex-direction: column;
+	
+	margin: 0px 30px;
+}
+
+#landmark_1_img, #landmark_2_img, #landmark_3_img {
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	
+	border-radius: 15px;
+}
+
+#footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	
+	margin: 75px auto;
+	padding: 25px 25px;
+	
+	width: 700px;
+	
+	background: lightskyblue;
+	border-bottom: 10px solid pink;
+}
+
+#tour_guide_img {
+	width: 200px;
+	border-radius: 15px;
+	margin-right: 50px;
+}
